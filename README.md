@@ -1,48 +1,53 @@
-# 🐔🔥 Steve's Lava Chicken Song Webpage
+# 🎸🔥 LAVA CHICKEN LYRIC EXPERIENCE
 
-A fun web tribute to the spicy musical moment from the Minecraft Movie!
+**LIVE SITE:** [https://lavachicken.pages.dev](https://lavachicken.pages.dev)
 
-![Lava Chicken Preview](https://via.placeholder.com/600x300.png?text=Lava+Chicken+Song+Lyrics+Display)
+A rocking web tribute to the ultimate chicken anthem! This interactive experience features animated lyrics that pulse to an imaginary Jack Black vocal performance. Click the copy button to instantly grab all lyrics for sharing or memorizing.
 
-## Quick Start
+## 🌟 FEATURES
 
-1. Download or clone files
-2. Open `index.html` in any modern browser
-3. Click the orange button to play the audio!
+- 🤘 Dynamic text animation mimicking live vocals
+- 📋 One-click lyrics copying
+- 🔥 Fiery visual effects and gradients
+- 🎸 Rock-inspired typography
+- 📱 Fully responsive design
 
-## What's Here
+## 🚀 HOST ON CLOUDFLARE PAGES
 
-✅ Full lyrics with cool fire effects  
-✅ One-click audio player  
-✅ Mobile-friendly design  
-✅ Hidden YouTube video player  
-✅ Minecraft-style colors
-
-## How to Use
-
+1. **Clone Repository**
 ```bash
-# Just open the HTML file!
-open index.html  # Mac
-start index.html # Windows
+git clone https://github.com/yourusername/lava-chicken.git
 ```
 
-## Customize
+2. **Upload to Cloudflare Pages**
+- Create new project for Pages in Cloudflare dashboard
+- Connect your Git repository that you uploaded the cloned files to
+- Choose a website name
+- Deploy!
 
-To change the music video:  
-1. Get a YouTube video ID  
-2. Replace in `index.html`:
-```html
-<iframe id="ytplayer" src="https://youtube.com/embed/YOUR_ID_HERE">
+3. **Share your live link**  
+`https://your-project-name.pages.dev`
+
+## ⚙️ FILE STRUCTURE
+```
+lavachicken/
+├── index.html
+├── css/
+│   └── index.css
+└── js/
+    └── index.js
 ```
 
-## About
+## 🎮 HOW IT WORKS
+- Lyrics animate with rock-concert energy
+- Copy button saves text to clipboard
+- Automatic animation syncs with imaginary vocals
+- Mobile-optimized rock experience
 
-Made by fans for fans - not official Minecraft content.  
-Celebrating the best chicken song in blocky history!
+## 📜 DISCLAIMER
+*Fan-made project inspired by Minecraft Movie concepts. Not affiliated with Mojang/Microsoft. Lyrics displayed for entertainment purposes.*
 
-```plaintext
-Made with:  
-HTML - CSS - JavaScript - 🌶️ Spicy Vibes
-```
+---
 
-📢 **Note:** Needs internet connection for YouTube audio
+**ROCK THE CHICKEN!** 🐔🔥  
+*"When regular chicken just isn't hot enough..."*
