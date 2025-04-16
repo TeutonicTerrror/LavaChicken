@@ -1,4 +1,4 @@
-```# 🐔🔥 Steve's Lava Chicken Song Webpage
+# 🐔🔥 Steve's Lava Chicken Song Webpage
 
 A fun web tribute to the spicy musical moment from the Minecraft Movie!
 
