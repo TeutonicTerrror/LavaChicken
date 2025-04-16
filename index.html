@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Steve's Lava Chicken Song</title>
+  <link rel="stylesheet" href="css/index.css">
 </head>
-<body style="background-color: #1e1e1e; color: #f5f5f5; font-family: Arial, sans-serif; padding: 40px; text-align: center;">
-
-  <h1 style="color: #ff3c00; font-size: 2.8em; margin-bottom: 10px;">
+<body>
+  <h1 class="song-title">
     🔥 Steve's Lava Chicken Song 🔥
   </h1>
 
-  <p style="font-size: 1.6em; color: #ff6347; margin: 30px 0 10px;">
+  <p class="intro-line">
     La-la-la-lava, ch-ch-ch-chicken
   </p>
 
-  <div style="font-size: 1.3em; line-height: 1.8em; background-color: #2c2c2c; padding: 25px; border-radius: 12px; display: inline-block; max-width: 500px;">
-    <p><span style="color:#ff5722; font-weight: bold;">Steve's Lava Chicken</span>, yeah, it's <span style="color:#ff4c4c;">tasty as hell</span></p>
-    <p>Ooh, <span style="color:#ff77aa;">mamacita</span>, now you're <span style="color:#fff;">ringing the bell</span></p>
-    <p><span style="color:#f08080;">Crispy and juicy</span>, now you're having a <span style="font-style: italic;">snack</span></p>
-    <p>Ooh, <span style="color:#ff3c00;">super spicy</span>, it's a <span style="color:#ff3c00; font-weight:bold;">lava attack</span> 🌋</p>
+  <div class="lyrics-container">
+    <p><span class="highlight">Steve's Lava Chicken</span>, yeah, it's <span class="accent">tasty as hell</span></p>
+    <p>Ooh, <span class="pink">mamacita</span>, now you're <span class="white">ringing the bell</span></p>
+    <p><span class="light-red">Crispy and juicy</span>, now you're having a <em>snack</em></p>
+    <p>Ooh, <span class="orange">super spicy</span>, it's a <span class="orange bold">lava attack</span> 🌋</p>
   </div>
 
-  <p style="font-size: 1.5em; color: #ff6347; margin-top: 30px;">🐔🔥🐔🔥🐔</p>
+  <p class="divider">🐔🔥🐔🔥🐔</p>
 
-  <div onclick="document.getElementById('ytplayer').src += '&autoplay=1'; this.style.display='none';"
-       style="margin-top: 30px; background-color: #ff3c00; color: white; padding: 15px 30px; border-radius: 10px; font-size: 1.2em; display: inline-block; cursor: pointer;">
+  <div id="playButton" class="play-button">
     ▶️ Tap to Play the Lava Chicken Audio
   </div>
 
   <iframe id="ytplayer"
           width="0" height="0"
-          style="visibility:hidden; position:absolute;"
+          class="video-iframe"
           src="https://www.youtube.com/embed/41O_MydqxTU?enablejsapi=1&modestbranding=1&rel=0&autoplay=0"
           allow="autoplay"></iframe>
 
+  <script src="js/index.js"></script>
 </body>
 </html>
