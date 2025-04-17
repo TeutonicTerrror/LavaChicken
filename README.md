@@ -16,7 +16,7 @@ A rocking web tribute to the ultimate chicken anthem! This interactive experienc
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/yourusername/lava-chicken.git
+git clone https://github.com/TeutonicTerror/LavaChicken
 ```
 
 2. **Upload to Cloudflare Pages**
@@ -32,6 +32,8 @@ git clone https://github.com/yourusername/lava-chicken.git
 ```
 lavachicken/
 ├── index.html
+├── images/
+│   └── favicon-32x32.png
 ├── css/
 │   └── index.css
 └── js/
